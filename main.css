@@ -57,6 +57,12 @@ body {
     text-decoration: none;
 }
 
+@media (max-width: 757px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
 
 
 

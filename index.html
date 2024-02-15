@@ -48,9 +48,9 @@
             </nav>
         </div>
     </header>
-    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
         <section id="sobre-o-restaurante">
-            <div class="carousel-slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
                         <img src="./img/images/slides/slide1.png" alt="Espaço interno do restaurante">
@@ -81,7 +81,7 @@
                         <div class="col-md-5">
                             <img src="./img/images/restaurante.jpg" class="d-block w-100 rounded" alt="Espaço interno do restaurante">
                         </div>
-                        <div class="col-md-7">
+                        <div class="col-md-7 mt-3 mt-md-0">
                             <h2 class="section-title">Sobre <span class="text-colored">o restaurante</span></h2>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum maxime sit consectetur deserunt saepe eos incidunt nisi eligendi facere eius, quae perferendis quas, voluptatum id ab recusandae ea, quaerat beatae.</p>
                             <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
@@ -135,10 +135,10 @@
                     <aside class="col-md-2">
                         <nav class="nav nav-pills flex-column nav-cardapio">
                             <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link active text-colored">Bebidas não alcoólicas</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link active text-colored">Bebidas alcoólicas</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link active text-colored">Entradas</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link active text-colored">Pratos Principais</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class=" fw-bold text-start nav-link active text-colored">Sobremesas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link text-colored">Bebidas alcoólicas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">Entradas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold text-start nav-link text-colored">Pratos Principais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class=" fw-bold text-start nav-link text-colored">Sobremesas</button>
                         </nav>
                     </aside>
                     <div class="col-md-10">
@@ -153,6 +153,26 @@
                                     <div class="col-md-3">
                                         <img src="./img/images/cardapio/bebidas/suco.jpg" class="d-blok w-100" alt="Suco">
                                         <h5 class="text-colored fw-bold mt-2">Suco de laranja</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/images/cardapio/bebidas/coca-cola.jpg" class="d-blok w-100" alt="Coca-cola">
+                                        <h5 class="text-colored fw-bold mt-2">Coca-Cola</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/images/cardapio/bebidas/coca-cola.jpg" class="d-blok w-100" alt="Coca-cola">
+                                        <h5 class="text-colored fw-bold mt-2">Coca-Cola</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/images/cardapio/bebidas/coca-cola.jpg" class="d-blok w-100" alt="Coca-cola">
+                                        <h5 class="text-colored fw-bold mt-2">Coca-Cola</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./img/images/cardapio/bebidas/coca-cola.jpg" class="d-blok w-100" alt="Coca-cola">
+                                        <h5 class="text-colored fw-bold mt-2">Coca-Cola</h5>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
                                     <div class="col-md-3">
@@ -275,7 +295,7 @@
                     <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
                 </div>
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-7 mb-5">
                         <form>
                             <div class="mb-3">
                                 <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
